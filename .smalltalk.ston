@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCITonelLoadSpec {
+      #directories : [ 'project/smalltalk/src' ]
+    }
+  ],
+  #testing : {
+    #packages : [ 'GraphClient-Tests' ]
+  },
+  #pharo : { #version : #pharo64_13 }
+}
